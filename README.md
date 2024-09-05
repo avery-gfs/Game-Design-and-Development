@@ -66,11 +66,9 @@ I'll try to provide feedback on the code you write for this class. Writing code 
 
 [Code.org game lab](https://studio.code.org/projects)
 
+[Code.org lessons](https://studio.code.org/s/csd3-2024)
+
 [Code.org docs](https://studio.code.org/docs/ide/gamelab)
-
-[Kaboom.js docs](https://kaboomjs.com/)
-
-[Kaboom.js examples](https://kaboomjs.com/play?example=add)
 
 [Pixel art editor](https://www.pixilart.com/draw)
 
