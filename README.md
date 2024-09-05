@@ -64,6 +64,10 @@ I'll try to provide feedback on the code you write for this class. Writing code 
 
 [Javascript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
+[Code.org game lab](https://studio.code.org/projects)
+
+[Code.org docs](https://studio.code.org/docs/ide/gamelab)
+
 [Kaboom.js docs](https://kaboomjs.com/)
 
 [Kaboom.js examples](https://kaboomjs.com/play?example=add)
