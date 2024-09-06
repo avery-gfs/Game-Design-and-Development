@@ -19,12 +19,6 @@ Our work in this class will be centered around a series of projects that each co
 
 I think that the best way to learn software engineering is by reading and writing software, so we'll be doing a lot of that!
 
-## Tech
-
-Please make sure to have the following software installed for next class:
-
-- A code editor (Visual Studio Code is recommended) https://code.visualstudio.com/Download
-
 ## Grading and Workload
 
 Grading for this class is pass/fail. You don't have to master all the material; as long as you participate in class and do the work, you'll pass. I'll give occasional quizzes as a tool to get feedback on my teaching, but your classwork and participation are what's important.
