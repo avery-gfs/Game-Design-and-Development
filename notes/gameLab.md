@@ -442,6 +442,42 @@ if (mouseClick("leftButton")) {
 
 ## Common Issues
 
+### Using the wrong variable name
+
+```js
+var mario = createSprite(100, 200);
+
+// INCORRECT
+// the variable name has to match exactly
+
+nario.setAnimation("happy_mario");
+
+// CORRECT
+
+mario.setAnimation("happy_mario");
+```
+
+_**Note**: sometimes, if a variable name is wrong, Code.org will suggest that you need to wrap it in quotes. This suggestion is wrong. **You don't need to add quotes!** You just need to make sure that the variable name you are using matches an actual variable in your program._
+
+### Using the animation name instead of the sprite name
+
+```js
+var mario = createSprite(100, 200);
+mario.setAnimation("happy_mario");
+
+// INCORRECT
+// happy_mario is the name of the animation (the sprite image), not the sprite variable
+
+happy_mario.velocityX = 1;
+
+// CORRECT
+
+mario.velocityX = 1;
+
+```
+
+_**Note**: sometimes, if a variable name is wrong, Code.org will suggest that you need to wrap it in quotes. This suggestion is wrong. **You don't need to add quotes!** You just need to make sure that the variable name you are using matches an actual variable in your program._
+
 ### Reusing the same variable names
 
 ```js
@@ -463,23 +499,6 @@ mario.setAnimation("happy_mario");
 var luigi = createSprite(300, 200);
 luigi.setAnimation("happy_luigi");
 ```
-
-### Using the wrong variable name
-
-```js
-var mario = createSprite(100, 200);
-
-// INCORRECT
-// the variable name has to match exactly
-
-nario.setAnimation("happy_mario");
-
-// CORRECT
-
-mario.setAnimation("happy_mario");
-```
-
-_**Note**: sometimes, if a variable name is wrong, Code.org will suggest that you need to wrap it in quotes. This suggestion is wrong. **You don't need to add quotes!** You just need to make sure that the variable name you are using matches an actual variable in your program._
 
 ### Multiple draw functions
 
