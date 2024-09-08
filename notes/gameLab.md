@@ -117,8 +117,8 @@ You can use the counter pattern to increase or decrease the value of some variab
 // increase the score variable
 score += 1;
 
-// decrease the size of mario
-mario.scale -= 0.1;
+// decrease the rotation of mario
+mario.rotation -= 0.1;
 ```
 
 ### Draw function
