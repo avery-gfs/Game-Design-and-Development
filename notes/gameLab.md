@@ -250,6 +250,16 @@ mario.scale += 0.1;
 mario.scale -= 0.1;
 ```
 
+If the sprite's scale gets negative, you'll see that the sprite flips upside down and starts getting bigger again as the scale becomes a negative number. To avoid this, you can use `*=` and `/=` to scale the sprite multiplicatively and avoid getting a negative scale.
+
+```js
+// gradually increase the size of the mario sprite
+mario.scale *= 1.05;
+
+// gradually decrease the size of the mario sprite
+mario.scale /= 1.05;
+```
+
 ### Set the rotation of a sprite with `sprite.rotation`
 
 You can change the rotation of a sprite by changing the `rotation` property of the sprite.
@@ -469,7 +479,7 @@ nario.setAnimation("happy_mario");
 mario.setAnimation("happy_mario");
 ```
 
-_**Note**: sometimes, if a variable name is wrong, Code.org will suggest that you need to wrap it in quotes. This suggestion is almost always wrong. You don't need to add quotes; you just need to make sure that the variable name you are using matches an actual variable in your program._
+_**Note**: sometimes, if a variable name is wrong, Code.org will suggest that you need to wrap it in quotes. This suggestion is wrong. **You don't need to add quotes!** You just need to make sure that the variable name you are using matches an actual variable in your program._
 
 ### Multiple draw functions
 
