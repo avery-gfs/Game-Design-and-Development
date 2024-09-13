@@ -10,6 +10,7 @@
 ## Javascript Basics
 
 - Types: numbers, booleans, strings, arrays, objects
+- Comparison
 - Math operations
 - Boolean operations
 - String operations
@@ -35,7 +36,7 @@
 
 Make a game with two sprites that each move in 2 dimensions. One sprite is controlled with the arrows keys, the other with WASD.
 
-Make a game with a sprite that falls under the force of gravity and stops at the bottom of the screen.
+Make a game with a sprite that falls under the force of gravity and stops at the bottom of the screen. Make the up arrow jump the sprite.
 
 Make a sprite that follows the mouse with "elastic" motion.
 
