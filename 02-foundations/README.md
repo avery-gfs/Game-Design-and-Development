@@ -35,7 +35,7 @@
 
 Make a game with two sprites that each move in 2 dimensions. One sprite is controlled with the arrows keys, the other with WASD.
 
-Make a game with a sprite that falls under the force of gravity and stops at the bottom of the screen. Make the up arrow jump the sprite. Left and right move left and right. Loop the left and right edges of the board.
+Make a game with a sprite that falls under the force of gravity and stops at the bottom of the screen.
 
 Make a sprite that follows the mouse with "elastic" motion.
 
