@@ -34,22 +34,14 @@
 
 ## Problems
 
-Make a game with two sprites that each move in 2 dimensions. One sprite is controlled with the arrows keys, the other with WASD.
+**Two Sprites:** Make a game with two sprites that each move in 2 dimensions. One sprite is controlled with the arrows keys, the other with WASD.
 
-Make a game with a sprite that falls under the force of gravity and stops at the bottom of the screen. Make the up arrow jump the sprite.
+**Gravity:** Make a game with a sprite that falls under the force of gravity and stops at the bottom of the screen. Make the up arrow jump the sprite.
 
-Make a sprite that follows the mouse with "elastic" motion.
+**Elastic:** Make a sprite that follows the mouse with "elastic" motion.
 
-Make an AI character that chases the player sprite in two dimensions.
+**Catch:** Make a player that moves laterally and catches falling objects, with a counter.
 
-Make a particle simulation of balls bouncing off the walls and each other.
+**Projectile:** Make a projectile simulator.
 
-Make a player that moves laterally and catches falling objects, with a counter.
-
-Make a planetary system gravity simulator.
-
-Make a projectile simulator.
-
-Make an image matching memory game.
-
-Make "asteroids".
+**Asteriods:** Make "asteroids".
