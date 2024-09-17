@@ -48,19 +48,24 @@ player2.scale = 0.2;
 function draw() {
   background("white");
   
-  // reset the x and y velocities to ensure that:
-  //   a) the sprite only moves horizontally or vertically, not diagonally
-  //   b) the sprite stops moving when no key is pressed down
+  // reset the x and y velocities to ensure that the sprite stops moving
+  // when no key is pressed down
   player1.velocityX = 0;
   player1.velocityY = 0;
   
   if (keyDown("w")) {
     player1.velocityY = -10;
-  } else if (keyDown("s")) {
+  }
+
+  if (keyDown("s")) {
     player1.velocityY = 10;
-  } else if (keyDown("a")) {
+  }
+
+  if (keyDown("a")) {
     player1.velocityX = -10;
-  } else if (keyDown("d")) {
+  }
+
+  if (keyDown("d")) {
     player1.velocityX = 10;
   }  
   
@@ -69,11 +74,17 @@ function draw() {
   
   if (keyDown("up")) {
     player2.velocityY = -10;
-  } else if (keyDown("down")) {
+  }
+
+  if (keyDown("down")) {
     player2.velocityY = 10;
-  } else if (keyDown("left")) {
+  }
+
+  if (keyDown("left")) {
     player2.velocityX = -10;
-  } else if (keyDown("right")) {
+  }
+
+  if (keyDown("right")) {
     player2.velocityX = 10;
   }
   
