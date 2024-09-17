@@ -43,5 +43,3 @@
 **Catch:** Make a player that moves laterally and catches falling objects, with a counter.
 
 **Projectile:** Make a projectile simulator.
-
-**Asteriods:** Make "asteroids".
