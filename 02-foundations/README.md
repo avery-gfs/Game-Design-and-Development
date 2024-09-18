@@ -94,6 +94,8 @@ function draw() {
 
 **Gravity:** Make a game with a sprite that falls under the force of gravity and stops at the bottom of the screen. Make the up arrow jump the sprite.
 
+**Follow:** Make a sprite that follows the mouse with a constant velocity.
+
 **Elastic:** Make a sprite that follows the mouse with "elastic" motion.
 
 **Catch:** Make a player that moves laterally and catches falling objects, with a counter.
