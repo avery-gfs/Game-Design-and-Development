@@ -2,11 +2,11 @@
 
 | Topics                              | Problems                                 | Links              |
 | ----------------------------------- | ---------------------------------------- | ------------------ |
-| Overview, world geometry, sprites   |                                          | [link](lessons/01) |
-| Sprite properties, movement         |                                          | [link](lessons/02) |
-| Conditions, keyboard input          | Player movement                          | [link](lessons/03) |
-| Javascript fundamentals, boundaries | Loop sprite                              | [link](lessons/04) |
-| Mouse input, basic AI               | Follow constant velocity, follow elastic | [link](lessons/05) |
+| Overview, world geometry, sprites   |                                          |                    |
+| Sprite properties, movement         |                                          |                    |
+| Conditions, keyboard input          | Player movement                          |                    |
+| Javascript fundamentals, boundaries | Loop sprite                              |                    |
+| Mouse input, basic AI               | Follow constant velocity, follow elastic |                    |
 | Gravity, backgrounds                | Flappy bird motion                       | [link](lessons/06) |
 | Collisions                          | Flappy bird obstacles                    | [link](lessons/07) |
 | Scoring, restarting                 | Flappy bird full                         |                    |
