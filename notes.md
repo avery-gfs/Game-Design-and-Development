@@ -473,7 +473,6 @@ happy_mario.velocityX = 1;
 // CORRECT
 
 mario.velocityX = 1;
-
 ```
 
 _**Note**: sometimes, if a variable name is wrong, Code.org will suggest that you need to wrap it in quotes. This suggestion is wrong. **You don't need to add quotes!** You just need to make sure that the variable name you are using matches an actual variable in your program._
