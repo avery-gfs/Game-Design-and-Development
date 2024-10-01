@@ -32,4 +32,4 @@ const topics = [
   "Sprite design and pixel art",
 ];
 
-console.log(topics.map(topic => `• ${topic}`).join("\n"));
+console.log(topics.map((topic) => `• ${topic}`).join("\n"));
