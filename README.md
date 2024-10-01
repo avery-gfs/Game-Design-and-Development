@@ -34,11 +34,11 @@
 - Groups of sprites
 - Collision detection
 
-#### Problems:
+#### Practice:
 
-[materials/two-sprites](materials/two-sprites)
+[materials/two-sprites](materials/two-sprites/practice.js)
 
-[materials/follow](materials/follow)
+[materials/follow](materials/follow/practice.js)
 
 ----
 
