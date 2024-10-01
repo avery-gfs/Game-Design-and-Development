@@ -1,3 +1,39 @@
+## Lesson: Basics
+
+### [GameLab API](https://studio.code.org/docs/ide/gamelab)
+
+- World geometry
+- Sprite properties
+- World properties
+- Keyboard input
+- Mouse input
+- Sprite animation
+
+### Javascript Basics
+
+- Types: numbers, booleans, strings, arrays, objects
+- Comparison
+- Math operations
+- Boolean operations
+- String operations
+- Array operations
+- Object basics
+- Conditionals
+- Loops: for, while
+- Custom functions
+- Variable scope
+
+### Game Behaviors
+
+- Movement
+- Gravity
+- Multi-user input
+- Simple AI
+- Board edge handling
+- Spawning
+- Groups of sprites
+- Collision detection
+
 ## Code.org game lab notes and concepts
 
 ### Definitions
