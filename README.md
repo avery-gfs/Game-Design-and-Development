@@ -1,6 +1,6 @@
 ## Lesson: Basics
 
-[GameLab API](https://studio.code.org/docs/ide/gamelab)
+#### [GameLab API](https://studio.code.org/docs/ide/gamelab)
 
 - World geometry
 - Sprite properties
@@ -9,7 +9,7 @@
 - Mouse input
 - Sprite animation
 
-Javascript Basics
+#### Javascript Basics
 
 - Types: numbers, booleans, strings, arrays, objects
 - Comparison
@@ -23,7 +23,7 @@ Javascript Basics
 - Custom functions
 - Variable scope
 
-Game Behaviors
+#### Game Behaviors
 
 - Movement
 - Gravity
@@ -33,6 +33,12 @@ Game Behaviors
 - Spawning
 - Groups of sprites
 - Collision detection
+
+#### Problems:
+
+[materials/two-sprites](materials/two-sprites)
+
+[materials/follow](materials/follow)
 
 ----
 
