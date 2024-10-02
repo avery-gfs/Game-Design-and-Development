@@ -1,4 +1,4 @@
-## Lesson: Basics
+## Basics
 
 #### [GameLab API](https://studio.code.org/docs/ide/gamelab)
 
@@ -34,7 +34,7 @@
 - Groups of sprites
 - Collision detection
 
-#### Practice:
+#### Practice
 
 [materials/two-sprites](materials/two-sprites/practice.js)
 
