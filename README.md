@@ -1,3 +1,19 @@
+## Flappy Bird Review
+
+#### Topics:
+
+- Bird code walkthrough
+- Variables vs magic numbers
+- Collider restrictions (separate pipe sprites)
+- Visibility
+- Random for one pipe, offset for the other
+- Parallax
+- Text / background draw order
+
+#### Game Design Ethics:
+
+https://en.wikipedia.org/wiki/Flappy_Bird#Discontinuation
+
 ## Basics
 
 #### [GameLab API](https://studio.code.org/docs/ide/gamelab)
