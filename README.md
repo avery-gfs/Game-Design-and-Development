@@ -14,6 +14,8 @@
 
 https://en.wikipedia.org/wiki/Flappy_Bird#Discontinuation
 
+---
+
 ## Basics
 
 #### [GameLab API](https://studio.code.org/docs/ide/gamelab)
@@ -56,7 +58,7 @@ https://en.wikipedia.org/wiki/Flappy_Bird#Discontinuation
 
 [materials/follow](materials/follow/practice.js)
 
-----
+---
 
 ## Links
 
