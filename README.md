@@ -1,3 +1,26 @@
+## Independent Project
+
+Your game should include:
+
+- [ ] Multiple Sprites
+- [ ] At least 1 custom-designed sprite
+- [ ] At least 1 animated sprite
+- [ ] A background
+- [ ] User input
+- [ ] Scoring
+- [ ] Game over / restart feature
+- [ ] At least 1 collision check
+
+Write a written description of your game, how it works, what they control are,
+the conditions for winning / losing, what strategy the user will need to use to
+play it, etc.
+
+Practice: write a planning document for flappy bird.
+
+## Sprite Animation
+
+https://studio.code.org/docs/concepts/game-lab/animation-tab/multi-frame-animations/
+
 ## Flappy Bird Review
 
 - Bird code walkthrough
