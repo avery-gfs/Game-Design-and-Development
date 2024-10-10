@@ -4,7 +4,6 @@ Your game should include:
 
 - [ ] Multiple Sprites
 - [ ] At least 1 custom-designed sprite
-- [ ] At least 1 animated sprite
 - [ ] A background
 - [ ] User input
 - [ ] Scoring
