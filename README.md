@@ -1,3 +1,7 @@
+## Sprite Animation
+
+https://studio.code.org/docs/concepts/game-lab/animation-tab/multi-frame-animations/
+
 ## Independent Project
 
 Your game should include:
@@ -15,10 +19,6 @@ the conditions for winning / losing, what strategy the user will need to use to
 play it, etc.
 
 Practice: write a planning document for flappy bird.
-
-## Sprite Animation
-
-https://studio.code.org/docs/concepts/game-lab/animation-tab/multi-frame-animations/
 
 ## Flappy Bird Review
 
