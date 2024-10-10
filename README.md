@@ -1,7 +1,5 @@
 ## Flappy Bird Review
 
-#### Topics:
-
 - Bird code walkthrough
 - Variables vs magic numbers
 - Collider restrictions (separate pipe sprites)
@@ -10,15 +8,11 @@
 - Parallax
 - Text / background draw order
 
-#### Game Design Ethics:
+## Game Design Ethics:
 
 https://en.wikipedia.org/wiki/Flappy_Bird#Discontinuation
 
----
-
-## Basics
-
-#### [GameLab API](https://studio.code.org/docs/ide/gamelab)
+## [GameLab API](https://studio.code.org/docs/ide/gamelab)
 
 - World geometry
 - Sprite properties
@@ -27,7 +21,7 @@ https://en.wikipedia.org/wiki/Flappy_Bird#Discontinuation
 - Mouse input
 - Sprite animation
 
-#### Javascript Basics
+## Javascript Basics
 
 - Types: numbers, booleans, strings, arrays, objects
 - Comparison
@@ -41,7 +35,7 @@ https://en.wikipedia.org/wiki/Flappy_Bird#Discontinuation
 - Custom functions
 - Variable scope
 
-#### Game Behaviors
+## Game Behaviors
 
 - Movement
 - Gravity
@@ -51,14 +45,6 @@ https://en.wikipedia.org/wiki/Flappy_Bird#Discontinuation
 - Spawning
 - Groups of sprites
 - Collision detection
-
-#### Practice
-
-[materials/two-sprites](materials/two-sprites/practice.js)
-
-[materials/follow](materials/follow/practice.js)
-
----
 
 ## Links
 
