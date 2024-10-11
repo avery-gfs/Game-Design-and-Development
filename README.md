@@ -26,7 +26,8 @@ m = maximum(5, 6); // m will equal 6
 Terms:
 
 - An **argument** is a value that is passed into a function when it's run.
-- A **parameter** is the name of the variable that argument values are assigned to inside the function.
+- A **parameter** is the name of the variable that argument values are assigned
+  to inside the function.
 - **Calling** a function means giving a function the arguments it needs and
   running the code inside.
 - A **return** value is the value that the function gives you back as a result
@@ -129,8 +130,8 @@ function draw() {
 With functions:
 
 ```js
-// makeSprite takes no arguments, and returns a new sprite object
-function makeSprite() {
+// makeEmoji takes no arguments, and returns a new sprite object
+function makeEmoji() {
   var sprite = createSprite(200, 200);
   sprite.setAnimation("emoji_14_1");
   sprite.scale = 0.2;
@@ -159,11 +160,11 @@ function wrapPosition(sprite) {
   }
 }
 
-// We can use makeSprite to make 4 new sprites
-var spriteA = makeSprite();
-var spriteB = makeSprite();
-var spriteC = makeSprite();
-var spriteD = makeSprite();
+// We can use makeEmoji to make 4 new sprites
+var spriteA = makeEmoji();
+var spriteB = makeEmoji();
+var spriteC = makeEmoji();
+var spriteD = makeEmoji();
 
 function draw() {
   background("white");
