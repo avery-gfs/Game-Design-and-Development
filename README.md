@@ -139,6 +139,12 @@ function makeEmoji() {
   return sprite;
 }
 
+// We can use makeEmoji to make 4 new sprites
+var spriteA = makeEmoji();
+var spriteB = makeEmoji();
+var spriteC = makeEmoji();
+var spriteD = makeEmoji();
+
 // wrapPosition takes a sprite object as an argument, and adjusts
 // the sprite's position if the sprite has gone off the edge of the board
 // wrapPosition doesn't return any value
@@ -159,12 +165,6 @@ function wrapPosition(sprite) {
     sprite.y = 0;
   }
 }
-
-// We can use makeEmoji to make 4 new sprites
-var spriteA = makeEmoji();
-var spriteB = makeEmoji();
-var spriteC = makeEmoji();
-var spriteD = makeEmoji();
 
 function draw() {
   background("white");
