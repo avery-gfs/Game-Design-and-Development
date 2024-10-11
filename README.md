@@ -1,6 +1,177 @@
-## Sprite Animation
+## Functions
 
-https://studio.code.org/docs/concepts/game-lab/animation-tab/multi-frame-animations/
+Functions help us reduce repetition in our code and build more powerful programs.
+You may find that functions you write for one program can be reused in other projects.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+
+Terms:
+- An **argument** is a value that is passed into a function when it's run.
+- **Calling** a function means giving a function the arguments it needs and running the code inside.
+- A **return** value is the value that the function gives you back as a result when you call it.
+
+```js
+// maximum takes two numerical arguments, a and b
+// and returns the greater of the two numbers
+function maximum(a, b) {
+    if (a > b) {
+        // return ends the function immediately
+        return a; // give back the number a as the result
+    }
+
+    return b; // give back the number b as the result
+}
+
+// Call the maximum function with two arguments and assign the
+// result to the variable m
+m = maximum(5, 6) // m will equal 6
+```
+Without using functions:
+
+```js
+var spriteA = createSprite(200, 200);
+spriteA.setAnimation("emoji_14_1");
+spriteA.scale = 0.2;
+spriteA.setSpeedAndDirection(5, randomNumber(0, 360));
+
+var spriteB = createSprite(200, 200);
+spriteB.setAnimation("emoji_14_1");
+spriteB.scale = 0.2;
+spriteB.setSpeedAndDirection(5, randomNumber(0, 360));
+
+var spriteC = createSprite(200, 200);
+spriteC.setAnimation("emoji_14_1");
+spriteC.scale = 0.2;
+spriteC.setSpeedAndDirection(5, randomNumber(0, 360));
+
+var spriteD = createSprite(200, 200);
+spriteD.setAnimation("emoji_14_1");
+spriteD.scale = 0.2;
+spriteD.setSpeedAndDirection(5, randomNumber(0, 360));
+
+function draw() {
+  background("white");
+  
+  if (spriteA.x < 0) {
+    spriteA.x = 400;
+  }
+  
+  if (spriteA.x > 400) {
+    spriteA.x = 0;
+  }
+  
+  if (spriteA.y < 0) {
+    spriteA.y = 400;
+  }
+  
+  if (spriteA.y > 400) {
+    spriteA.y = 0;
+  }
+  
+  if (spriteB.x < 0) {
+    spriteB.x = 400;
+  }
+  
+  if (spriteB.x > 400) {
+    spriteB.x = 0;
+  }
+  
+  if (spriteB.y < 0) {
+    spriteB.y = 400;
+  }
+  
+  if (spriteB.y > 400) {
+    spriteB.y = 0;
+  }
+  
+  if (spriteC.x < 0) {
+    spriteC.x = 400;
+  }
+  
+  if (spriteC.x > 400) {
+    spriteC.x = 0;
+  }
+  
+  if (spriteC.y < 0) {
+    spriteC.y = 400;
+  }
+  
+  if (spriteC.y > 400) {
+    spriteC.y = 0;
+  }
+
+  if (spriteD.x < 0) {
+    spriteD.x = 400;
+  }
+  
+  if (spriteD.x > 400) {
+    spriteD.x = 0;
+  }
+  
+  if (spriteD.y < 0) {
+    spriteD.y = 400;
+  }
+  
+  if (spriteD.y > 400) {
+    spriteD.y = 0;
+  }
+
+  drawSprites();
+}
+```
+
+With functions:
+
+```js
+// makeSprite takes no arguments, and returns a new sprite object
+function makeSprite() {
+  var sprite = createSprite(200, 200);
+  sprite.setAnimation("emoji_14_1");
+  sprite.scale = 0.2;
+  sprite.setSpeedAndDirection(5, randomNumber(0, 360));
+  return sprite;
+}
+
+// wrapPosition takes a sprite object as an argument, and adjusts
+// the sprite's position if the sprite has gone off the edge of the board
+// wrapPosition doesn't return any value
+function wrapPosition(sprite) {
+  if (sprite.x < 0) {
+    sprite.x = 400;
+  }
+  
+  if (sprite.x > 400) {
+    sprite.x = 0;
+  }
+  
+  if (sprite.y < 0) {
+    sprite.y = 400;
+  }
+  
+  if (sprite.y > 400) {
+    sprite.y = 0;
+  }
+}
+
+// We can use makeSprite to make 4 new sprites
+var spriteA = makeSprite();
+var spriteB = makeSprite();
+var spriteC = makeSprite();
+var spriteD = makeSprite();
+
+function draw() {
+  background("white");
+  
+  // We can give our sprite objects to wrapPosition to
+  // have them wrap around the edges of the board
+  wrapPosition(spriteA);
+  wrapPosition(spriteB);
+  wrapPosition(spriteC);
+  wrapPosition(spriteD);
+
+  drawSprites();
+}
+```
 
 ## Independent Project
 
