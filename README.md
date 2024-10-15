@@ -191,6 +191,7 @@ Your game should include:
 - [ ] Scoring
 - [ ] Game over / restart feature
 - [ ] At least 1 collision check
+- [ ] At least 1 function
 
 Write a written description of your game, how it works, what they control are,
 the conditions for winning / losing, what strategy the user will need to use to
