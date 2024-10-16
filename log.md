@@ -9,5 +9,6 @@
 | snake          |     |
 | asteroids      |     |
 | driving        |     |
+| platformer     |     |
 
 Changes for next time:
