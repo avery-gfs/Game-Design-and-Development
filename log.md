@@ -1,5 +1,7 @@
 | Topic          | 1   |
 | -------------- | --- |
+| start project  |  x  |
+| finish project |     |
 | function scope |     |
 | spawning       |     |
 | groups         |     |
