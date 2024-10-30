@@ -1,16 +1,21 @@
-| Topic          | 1   |
-| -------------- | --- |
-| start project  |  x  |
-| finish project |     |
-| function scope |     |
-| spawning       |     |
-| groups         |     |
-| loops          |     |
-| animation      |     |
-| pixel art      |     |
-| snake          |     |
-| asteroids      |     |
-| driving        |     |
-| platformer     |     |
+| Topic                  | 1   |
+| ---------------------- | --- |
+| Functions              | x   |
+| Start project          | x   |
+| Finish project         | x   |
+| Loops                  | x   |
+| Groups                 |     |
+| Share links            |     |
+| Add groups to projects |     |
+| Pair programming       |     |
+| Spawning               |     |
+| Animation              |     |
+| Pixel art              |     |
+| Snake                  |     |
+| Asteroids              |     |
+| Driving                |     |
+| Platformer             |     |
 
 Changes for next time:
+
+- Group projects
