@@ -113,7 +113,8 @@ blocks to add complex functionality and behavior to your games.
 We can use `for` loops to run a piece of code multiple times. A `for` loop has
 four components:
 
-- A loop variable begins at some starting value and changes as the loop runs
+- A loop variable that begins at some starting value and changes as the loop
+  runs
 - A condition that tells the loop when to keep running
 - An update expression that tels the loop how to update the loop variable
 - A block of code that runs for each iteration (cycle) of the loop
@@ -124,9 +125,10 @@ for (var i = 0; i <= 10; i++) {
 }
 ```
 
-The loop above will run 11 times. The variable `i` is set to `0` for the first
+The loop above will run `11` times. The variable `i` is set to `0` for the first
 iteration, `1` for the second, and so on up to `10`. The `console.log` call
-prints out each value, so the code will print out the numbers from `0` to `10`.
+prints out each value of `i`, so the code will print out the numbers from `0` to
+`10`.
 
 In the code above:
 
@@ -137,8 +139,8 @@ In the code above:
   to `i += 1` or `i = i + 1`
 - `console.log(i)` is the code that runs for each iteration of the loop
 
-For loops are especially powerful when working with collections of sprites or
-other objects. See the groups examples above.
+For loops are especially powerful when working with collections of sprites. See
+the groups examples above.
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
 
@@ -160,26 +162,26 @@ while (n < 100) {
 ```
 
 The loop above will run 7 times. The variable `n` is set to `1` before the loop
-runs, and gets printed and doubled each time the loop runs. The code will print
-the numbers `1`, `2`, `4`, `8`, `16`, `32`, `64` (the first 7 powers of `2`)
-before reaching a value above `100` and stopping the loop.
+runs, and gets printed and doubled in each iteration of the loop. The code will
+print the numbers `1`, `2`, `4`, `8`, `16`, `32`, `64` (the first 7 powers of
+`2`) before reaching a value above `100` and stopping the loop.
 
 In the code above:
 
 - `i < 100` is the loop condition (the loop will keep running as long as `n` is
   less than `100`)
-- `console.log(i)` and `n *= 2` are the lins of code that runs for each
+- `console.log(i)` and `n *= 2` are the lines of code that runs for each
   iteration of the loop
-
-Note that is it possible to write a `while` loop that never runs (if the
-condition is never true), or that runs forever (if the condition is always
-true). The latter case is know as an "infinite loop" and is usually a result of
-a flaw in your code.
 
 We won't use `while` loops as often as `for` loops when writing games, but
 they're good to be aware of as a general-purpose programming concept.
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
+
+## Infinite loops
+
+Note that is it possible to write a `for` or `while` loop that runs forever. The
+is know as an "infinite loop" and is usually a result of a flaw in your code.
 
 ## Functions
 
