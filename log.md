@@ -4,7 +4,7 @@
 | Start project          | x   |
 | Finish project         | x   |
 | Loops                  | x   |
-| Groups                 |     |
+| Groups                 | x   |
 | Share links            |     |
 | Add groups to projects |     |
 | Pair programming       |     |
