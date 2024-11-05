@@ -19,3 +19,4 @@
 Changes for next time:
 
 - Group projects
+- Grade assignments for work and collect submissions

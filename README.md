@@ -12,7 +12,7 @@ functions, can make our code easier to write, modify, and understand.
 - Add a variable `sprite` to a group:
 
   ```js
-  group.addSprite(sprite);
+  group.add(sprite);
   ```
 
 - Get the number of sprites in a group:
