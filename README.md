@@ -32,9 +32,9 @@ functions. I'd recommend adding these commonly used import lines at the
 beginning of every program you write.
 
 ```py
-import math     # for accessing certain math functions like min and max
+import math     # for accessing math functions like min and max
 import os       # for certain OS features
-import random   # for generating random values
+import random   # for generating and selecting random values
 import readline # for handling user input elegantly
 import time     # for timing things and making the program pause
 ```
@@ -45,9 +45,11 @@ https://www.w3schools.com/python/
 
 **General notes**
 
-- Python doesn't use `;` to end lines
+- Python doesn't use `;` to end lines.
+
 - Python uses `:` and indentation instead of `{}` to show what code goes inside
-  conditionals and loops
+  conditionals and loops. Make sure you are indenting your lines of code
+  correctly, as this will affect how your program runs.
 
 **Comments**
 
@@ -59,7 +61,7 @@ https://www.w3schools.com/python/
 # This is a comment
 ```
 
-- Python uses `#` for comments instead of `//`
+- Python uses `#` for comments instead of `//`.
 
 **Variables**
 
@@ -75,7 +77,7 @@ _Python_
 name = "Avery"
 ```
 
-- Python doesn't use `var` when making new variables
+- Python doesn't use `var` when making new variables.
 
 **Logic**
 
@@ -89,8 +91,8 @@ _Python_
 age >= 18 and age < 60
 ```
 
-- Python uses `and` instead of `&&` for logical and
-- Python uses `or` instead of `or` for logical or
+- Python uses `and` instead of `&&` for logical and.
+- Python uses `or` instead of `or` for logical or.
 
 **Printing**
 
@@ -135,8 +137,8 @@ else:
     vx = 0
 ```
 
-- Python doesn't use parentheses on conditions
-- Python uses `elif` instead of `else if`
+- Python doesn't use parentheses on conditions.
+- Python uses `elif` instead of `else if`.
 
 **Functions**
 
@@ -180,7 +182,7 @@ for x in range(0, 10):
 ```
 
 - You can loop over a range of numbers in Python use a `for` loop with the
-  `range` function
+  `range` function.
 - The `range` function does **not** include the ending value that you give it.
   So `range(0, 10)` loops over the numbers from `0` to `9`. You can decide for
   yourself whether this was a good decision on the part of Python's designers.
