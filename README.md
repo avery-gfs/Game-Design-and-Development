@@ -155,6 +155,10 @@ _Javascript_
 if (age < 18 || age >= 60) {
   discount = true;
 }
+
+if (!gameOver) {
+    score += 1;
+}
 ```
 
 _Python_
@@ -162,10 +166,14 @@ _Python_
 ```py
 if age < 18 or age >= 60:
     discount = True
+
+if not gameOver
+    score += 1
 ```
 
 - Python uses `and` instead of `&&` for logical and.
 - Python uses `or` instead of `or` for logical or.
+- Python uses `not` instead of `!` for logical not.
 
 **Functions**
 
@@ -208,11 +216,12 @@ for x in range(0, 10):
     print(x)
 ```
 
-- You can loop over a range of numbers in Python use a `for` loop with the
+- You can loop over a range of numbers in Python using a `for` loop with the
   `range` function.
 - The `range` function **does not** include the ending value that you give it.
   So `range(0, 10)` loops over the numbers from `0` to `9`. You can decide for
-  yourself whether this was a reasonable decision on the part of Python's designers.
+  yourself whether this was a reasonable decision on the part of Python's
+  designers.
 
 ## Groups
 
@@ -665,3 +674,16 @@ https://en.wikipedia.org/wiki/Flappy_Bird#Discontinuation
 [Pixel art editor](https://www.pixilart.com/draw)
 
 [Image editor](https://www.photopea.com/)
+
+## Planning
+
+- Lists, in
+- For, while
+- Random choice
+
+Projects:
+
+- Number guessing
+- Hangman
+- Tic tac toe
+- Adventure game
