@@ -53,15 +53,37 @@ https://www.w3schools.com/python/
 
 **Comments**
 
+_Javascript_
+
 ```js
 // This is a comment
 ```
+
+_Python_
 
 ```py
 # This is a comment
 ```
 
 - Python uses `#` for comments instead of `//`.
+
+**Booleans**
+
+_Javascript_
+
+```js
+true;
+false;
+```
+
+_Python_
+
+```py
+True
+False
+```
+
+- Booleans in Python start with uppercase letters.
 
 **Variables**
 
@@ -78,21 +100,6 @@ name = "Avery"
 ```
 
 - Python doesn't use `var` when making new variables.
-
-**Logic**
-
-```js
-age >= 18 && age < 60;
-```
-
-_Python_
-
-```py
-age >= 18 and age < 60
-```
-
-- Python uses `and` instead of `&&` for logical and.
-- Python uses `or` instead of `or` for logical or.
 
 **Printing**
 
@@ -139,6 +146,26 @@ else:
 
 - Python doesn't use parentheses on conditions.
 - Python uses `elif` instead of `else if`.
+
+**Logic**
+
+_Javascript_
+
+```js
+if (age < 18 || age >= 60) {
+  discount = true;
+}
+```
+
+_Python_
+
+```py
+if age < 18 or age >= 60:
+    discount = True
+```
+
+- Python uses `and` instead of `&&` for logical and.
+- Python uses `or` instead of `or` for logical or.
 
 **Functions**
 
