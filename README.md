@@ -210,9 +210,9 @@ for x in range(0, 10):
 
 - You can loop over a range of numbers in Python use a `for` loop with the
   `range` function.
-- The `range` function does **not** include the ending value that you give it.
+- The `range` function **does not** include the ending value that you give it.
   So `range(0, 10)` loops over the numbers from `0` to `9`. You can decide for
-  yourself whether this was a good decision on the part of Python's designers.
+  yourself whether this was a reasonable decision on the part of Python's designers.
 
 ## Groups
 
