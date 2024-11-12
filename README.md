@@ -1,3 +1,190 @@
+## Emojis
+
+https://emojipedia.org/
+
+You can embed emojis in Python strings to make text based games more visually
+interesting.
+
+```py
+print("Pet Simulator 😺")
+```
+
+## Clearing the Screen
+
+You can use `os.system("clear")` to clear the screen, which is helpful when
+making text based games. Make sure you `import` the `os` module.
+
+## User Input
+
+```py
+# Prompts the user for their name and stores it in a variable
+name = input("Enter your name: ")
+
+# Prompts the user for their age and stores it in a variable
+# We use the int function to convert the input text into a number
+age = int(input("Enter your age: "))
+```
+
+## Python Imports
+
+Python makes you import modules (libraries) in order to access certain built-in
+functions. I'd recommend adding these commonly used import lines at the
+beginning of every program you write.
+
+```py
+import math     # for accessing certain math functions like min and max
+import os       # for certain OS features
+import random   # for generating random values
+import readline # for handling user input elegantly
+import time     # for timing things and making the program pause
+```
+
+## Basic Python
+
+https://www.w3schools.com/python/
+
+**General notes**
+
+- Python doesn't use `;` to end lines
+- Python uses `:` and indentation instead of `{}` to show what code goes inside
+  conditionals and loops
+
+**Comments**
+
+```js
+// This is a comment
+```
+
+```py
+# This is a comment
+```
+
+- Python uses `#` for comments instead of `//`
+
+**Variables**
+
+_Javascript_
+
+```js
+var name = "Avery";
+```
+
+_Python_
+
+```py
+name = "Avery"
+```
+
+- Python doesn't use `var` when making new variables
+
+**Logic**
+
+```js
+age >= 18 && age < 60;
+```
+
+_Python_
+
+```py
+age >= 18 and age < 60
+```
+
+- Python uses `and` instead of `&&` for logical and
+- Python uses `or` instead of `or` for logical or
+
+**Printing**
+
+_Javascript_
+
+```js
+console.log("Hello world");
+console.log("Hello " + name);
+console.log(age);
+```
+
+_Python_
+
+```py
+print("Hello world")
+print("Hello", name)
+print(age)
+```
+
+**Conditionals**
+
+_Javascript_
+
+```js
+if (direction == "left") {
+  vx = -1;
+} else if (direction == "right") {
+  vx = 1;
+} else {
+  vx = 0;
+}
+```
+
+_Python_
+
+```py
+if direction == "left":
+    vx = -1
+elif direction == "right":
+    vx = 1
+else:
+    vx = 0
+```
+
+- Python doesn't use parentheses on conditions
+- Python uses `elif` instead of `else if`
+
+**Functions**
+
+_Javascript_
+
+```js
+function maximum(a, b) {
+  if (a > b) {
+    return a;
+  }
+
+  return b;
+}
+```
+
+_Python_
+
+```py
+def maximum(a, b):
+    if a > b:
+        return a
+
+    return b
+```
+
+**Numerical For Loops**
+
+_Javascript_
+
+```js
+for (var x = 0; x < 10; x++) {
+  console.log(x);
+}
+```
+
+_Python_
+
+```py
+for x in range(0, 10):
+    print(x)
+```
+
+- You can loop over a range of numbers in Python use a `for` loop with the
+  `range` function
+- The `range` function does **not** include the ending value that you give it.
+  So `range(0, 10)` loops over the numbers from `0` to `9`. You can decide for
+  yourself whether this was a good decision on the part of Python's designers.
+
 ## Groups
 
 We can use groups to keep track of multiple sprites at once. Groups, like
@@ -108,7 +295,7 @@ calls for each sprite!
 With functions, loops, conditionals, and groups, you now have the building
 blocks to add complex functionality and behavior to your games.
 
-## For loops
+## For Loops
 
 We can use `for` loops to run a piece of code multiple times. A `for` loop has
 four components:
@@ -144,7 +331,7 @@ the groups examples above.
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
 
-## While loops
+## While Loops
 
 We can use `while` loops to run a piece of code as long as some condition is
 true. A `while` loop has two components:
@@ -178,7 +365,7 @@ they're good to be aware of as a general-purpose programming concept.
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
 
-## Infinite loops
+## Infinite Loops
 
 Note that is it possible to write a `for` or `while` loop that runs forever. The
 is know as an "infinite loop" and is usually a result of a flaw in your code.
