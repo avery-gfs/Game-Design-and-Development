@@ -72,15 +72,13 @@ _Python_
 _Javascript_
 
 ```js
-true;
-false;
+gameOver = true;
 ```
 
 _Python_
 
 ```py
-True
-False
+gameOver = True
 ```
 
 - Booleans in Python start with uppercase letters.
@@ -157,7 +155,7 @@ if (age < 18 || age >= 60) {
 }
 
 if (!gameOver) {
-    score += 1;
+  score += 1;
 }
 ```
 
