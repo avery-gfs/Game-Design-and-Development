@@ -176,7 +176,7 @@ while True:
 ```py
 import random
 
-random.range(1, 10) # Random integer between 0 and 9
+random.range(1, 10) # Random integer between 1 and 9
 
 random.random() # Random decimal number between 0 and 1
 
