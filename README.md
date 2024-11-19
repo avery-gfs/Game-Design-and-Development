@@ -1,3 +1,9 @@
+## Adventure Game
+
+## Hangman
+
+## Cards Memory Game
+
 ## Emojis
 
 https://emojipedia.org/
@@ -53,14 +59,6 @@ https://www.w3schools.com/python/
 
 **Comments**
 
-_Javascript_
-
-```js
-// This is a comment
-```
-
-_Python_
-
 ```py
 # This is a comment
 ```
@@ -68,14 +66,6 @@ _Python_
 - Python uses `#` for comments instead of `//`.
 
 **Booleans**
-
-_Javascript_
-
-```js
-gameOver = true;
-```
-
-_Python_
 
 ```py
 gameOver = True
@@ -85,14 +75,6 @@ gameOver = True
 
 **Variables**
 
-_Javascript_
-
-```js
-var name = "Avery";
-```
-
-_Python_
-
 ```py
 name = "Avery"
 ```
@@ -101,16 +83,6 @@ name = "Avery"
 
 **Printing**
 
-_Javascript_
-
-```js
-console.log("Hello world");
-console.log("Hello " + name);
-console.log(age);
-```
-
-_Python_
-
 ```py
 print("Hello world")
 print("Hello", name)
@@ -118,20 +90,6 @@ print(age)
 ```
 
 **Conditionals**
-
-_Javascript_
-
-```js
-if (direction == "left") {
-  vx = -1;
-} else if (direction == "right") {
-  vx = 1;
-} else {
-  vx = 0;
-}
-```
-
-_Python_
 
 ```py
 if direction == "left":
@@ -147,20 +105,6 @@ else:
 
 **Logic**
 
-_Javascript_
-
-```js
-if (age < 18 || age >= 60) {
-  discount = true;
-}
-
-if (!gameOver) {
-  score += 1;
-}
-```
-
-_Python_
-
 ```py
 if age < 18 or age >= 60:
     discount = True
@@ -170,24 +114,10 @@ if not gameOver
 ```
 
 - Python uses `and` instead of `&&` for logical and.
-- Python uses `or` instead of `or` for logical or.
+- Python uses `or` instead of `||` for logical or.
 - Python uses `not` instead of `!` for logical not.
 
 **Functions**
-
-_Javascript_
-
-```js
-function maximum(a, b) {
-  if (a > b) {
-    return a;
-  }
-
-  return b;
-}
-```
-
-_Python_
 
 ```py
 def maximum(a, b):
@@ -198,16 +128,6 @@ def maximum(a, b):
 ```
 
 **Numerical For Loops**
-
-_Javascript_
-
-```js
-for (var x = 0; x < 10; x++) {
-  console.log(x);
-}
-```
-
-_Python_
 
 ```py
 for x in range(0, 10):
@@ -220,6 +140,71 @@ for x in range(0, 10):
   So `range(0, 10)` loops over the numbers from `0` to `9`. You can decide for
   yourself whether this was a reasonable decision on the part of Python's
   designers.
+
+**While Loops**
+
+```py
+n = 1
+
+# Prints out powers of two: (1, 2, 4, 8, 16, 32, 64)
+
+while n < 100:
+    print(n)
+    n *= 2
+```
+
+**While `True`**
+
+You can use `while True` to make loops that go forever (until you `break` out of them).
+
+```py
+import random
+
+score = 0
+
+while True:
+    if random.choice([True, False]):
+        score += 1
+        print("Score", score)
+    else:
+        print("Game Over")
+        break
+```
+
+**Random Values**
+
+```py
+import random
+
+random.range(1, 10) # Random integer between 0 and 9
+
+random.random() # Random decimal number between 0 and 1
+
+random.random() * 10 # Random decimal number between 0 and 10
+
+random.choice([True, False]) # Random boolean value
+
+random.choice(["rock", "paper", "scissors"]) # Random rock paper scissors move
+```
+
+**Pausing**
+
+```py
+import time
+
+n = 0
+
+while True:
+    n += 1
+    print(n)
+    time.sleep(1) # Pause for 1 second
+```
+
+**Lists**
+
+**State Machines**
+
+**Text Processing**
 
 ## Groups
 
@@ -672,16 +657,3 @@ https://en.wikipedia.org/wiki/Flappy_Bird#Discontinuation
 [Pixel art editor](https://www.pixilart.com/draw)
 
 [Image editor](https://www.photopea.com/)
-
-## Planning
-
-- Lists, in
-- For, while
-- Random choice
-
-Projects:
-
-- Number guessing
-- Hangman
-- Tic tac toe
-- Adventure game
